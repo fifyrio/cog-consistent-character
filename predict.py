@@ -127,7 +127,7 @@ class Predictor(BasePredictor):
 
         negative_prompt = workflow["10"]["inputs"]
         negative_prompt["text"] = (
-            f"(nsfw:2), nipple, nude, naked, {kwargs['negative_prompt']}, lowres, two people, child, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, multiple view, reference sheet, mutated, poorly drawn, mutation, deformed, ugly, bad proportions, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, amateur drawing, odd eyes, uneven eyes, unnatural face, uneven nostrils, crooked mouth, bad teeth, crooked teeth, gross, ugly, very long body, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn eyes"
+            f"{kwargs['negative_prompt']}, lowres, two people, child, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, multiple view, reference sheet, mutated, poorly drawn, mutation, deformed, ugly, bad proportions, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, amateur drawing, odd eyes, uneven eyes, unnatural face, uneven nostrils, crooked mouth, bad teeth, crooked teeth, gross, ugly, very long body, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn eyes"
         )
 
         sampler = workflow["11"]["inputs"]
