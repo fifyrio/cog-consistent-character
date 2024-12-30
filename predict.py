@@ -181,7 +181,7 @@ class Predictor(BasePredictor):
         output_quality: int = optimise_images.predict_output_quality(),
         seed: int = seed_helper.predict_seed(),
         disable_safety_checker: bool = Input(
-            description="Disable safety checker for generated images.", default=False
+            description="Disable safety checker for generated images.", default=True
         ),
     ) -> Iterator[Path]:
         """Run a single prediction on the model"""
