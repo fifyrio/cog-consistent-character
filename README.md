@@ -15,7 +15,7 @@ https://github.com/fofr/cog-consistent-character/blob/main/workflow_ui.json
 Clone this repository:
 
 ```sh
-git clone --recurse-submodules https://github.com/fofr/cog-consistent-character.git
+git clone --recurse-submodules https://github.com/fifyrio/cog-consistent-character.git
 ```
 
 Run the [following script](https://github.com/fofr/cog-consistent-character/blob/main/scripts/install_custom_nodes.py) to install all the custom nodes:
